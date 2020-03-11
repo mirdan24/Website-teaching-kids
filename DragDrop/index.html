@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Drag&Drop Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body onload="losuj();" bgcolor="red">
+    <a href="../index.html"><font face="Arial"><h5>Powrót do strony głównej</h5></font></a>
+    <div id="all">
+    <div id="pole1"></div>
+    <div id="plus"><img src="plus.png" vspace="15"  height="50" width="50"></div>
+    <div id="drag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="equal"> <img src="equal.png" vspace="15"  height="40" width="45"></div>
+    <div id="pole2"></div>
+    <div id="nr1"></div>
+    <div id="nr2"></div>
+    <div id="nr3"></div>
+  </div>
+  </body>
+</html>

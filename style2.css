@@ -1,0 +1,1613 @@
+@media screen and (min-width: 1200px){
+    #all
+    {
+        flex-basis: 15%;
+        flex-grow: 1;
+        height: 33.33vh;
+        text-align: center;
+        /* border: 4px solid #fff; */
+        /* background-color: #000; */
+            /* padding: 30px; */
+    }
+    #footer
+    {
+         display: flex;
+        /* justify-content: center; */
+        text-align: left;
+        /* left: 0; */
+        background-color: orange;
+        width: 460px;
+        height: 100px;
+        margin: 20px;
+        /* padding-bottom: 20px; */
+        /* padding-top: 0px;  */
+	
+
+    }
+    #naglowek
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: teal;
+        width: 35%;
+        height: 80px;
+        margin: auto;
+    }
+    #Muzyka
+    {
+        /* background: url(mozg.jpg); */
+        width: 46%;
+        height: 33vh;
+        min-width: 50vh;
+        background-color: brown;
+        text-align: center;
+        /* opacity: 0.1; */
+        color: white;
+        float: left;
+        margin: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px; 
+    }
+
+        
+    #Muzyka2
+    {
+        width: 100%;
+        height: 100%;
+        background: url(Muzyka.jpg);
+        background-position:center center;
+        /* text-align: center; */
+        background-repeat: no-repeat;
+    }
+    #pole7
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole7 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #Muzyka2:hover > #pole7,#pole7 p
+    {
+        display: block;
+    }
+    #labirynt
+    {
+        /* background: url(mozg.jpg); */
+        width: 46%;
+        height: 33vh;
+        min-width: 50vh;
+        background-color: pink;
+        text-align: center;
+        /* opacity: 0.1; */
+        color: white;
+        float: left;
+        margin: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px; 
+    }
+
+        
+    #labirynt2
+    {
+        width: 100%;
+        height: 100%;
+        background: url(labirynt.jpg);
+        background-position:center center;
+        /* text-align: center; */
+        background-repeat: no-repeat;
+    }
+    #pole8
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  display: none;
+    }
+    #pole8 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: black;
+    }
+    #labirynt2:hover > #pole8,#pole8 p
+    {
+        display: block;
+    }
+    #raz
+    {
+        /* background: url(mozg.jpg); */
+        width: 30%;
+        height: 33vh;
+        min-width: 50vh;
+        background-color: green;
+        text-align: center;
+        /* opacity: 0.1; */
+        color: white;
+        float: left;
+        margin: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px; 
+    }
+
+        
+    #razraz
+    {
+        width: 100%;
+        height: 100%;
+        background: url(mozg.jpg);
+        background-position:center center;
+        /* text-align: center; */
+        background-repeat: no-repeat;
+    }
+    #pole1
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole1 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #razraz:hover > #pole1,#pole1 p
+    {
+        display: block;
+    }
+
+    #dwa
+    {
+        /* background: url(dragdrop.jpg); */
+        background-color: red;
+        width: 30%;
+        height: 33vh;
+        min-width: 50vh;
+     text-align: center;
+     float: left;
+     margin: 20px;
+       padding-bottom: 20px;
+        padding-top: 20px;
+    
+    }
+    #dwadwa
+    {
+        width: 100%;
+        height: 100%;
+        background: url(dragdrop.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+        /* background-size:cover; */
+
+    }
+    #pole2
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole2 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #dwadwa:hover > #pole2,#pole2 p
+    {
+        display: block;
+    }
+    #trzy
+    {
+        background-color: yellow;
+        width: 30%;
+        height: 33vh;
+        min-width: 50vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     
+        }
+    #trzytrzy{
+        width: 100%;
+        height: 100%;
+        background: url(wykres.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+    }
+    #pole3
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole3 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #trzytrzy:hover > #pole3,#pole3 p
+    {
+        display: block;
+    }
+    #cztery
+    {
+        background-color: blue;
+        width: 30%;
+        height: 33vh;
+        min-width: 50vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     
+        }
+    #czterycztery{
+        width: 100%;
+        height: 100%;
+        background: url(kalkulator.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+
+    }
+    #pole4
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole4 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #czterycztery:hover > #pole4,#pole4 p
+    {
+        display: block;
+    }
+    #piec
+    {
+        background-color: gold;
+        width: 30%;
+        height: 33vh;
+        min-width: 50vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     
+        }
+    #piecpiec{
+        width: 100%;
+        height: 100%;
+        background: url(haslo.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+
+    }
+    #pole5
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole5 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #piecpiec:hover > #pole5,#pole5 p
+    {
+        display: block;
+    }
+    #szesc
+    {
+        background-color: silver;
+        width: 30%;
+        height: 33vh;
+        min-width: 50vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     
+        }
+    #szescszesc{
+        width: 100%;
+        height: 100%;
+        background: url(rekordy.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+
+    }
+    #pole6
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole6 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #szescszesc:hover > #pole6,#pole6 p
+    {
+        display: block;
+    }
+    
+    
+    }
+    @media screen and (min-width: 780px) and (max-width: 1200px){
+        #all
+    {
+        flex-basis: 15%;
+        flex-grow: 1;
+        height: 33.33vh;
+        text-align: center;
+        /* border: 4px solid #fff; */
+        /* background-color: #000; */
+            /* padding: 30px; */
+    }
+    #naglowek
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: teal;
+        width: 35%;
+        height: 80px;
+        margin: auto;
+    }
+    #footer
+    {
+         display: flex;
+        /* justify-content: center; */
+        text-align: left;
+        /* left: 0; */
+        background-color: orange;
+        width: 460px;
+        height: 100px;
+        margin: 20px;
+        /* padding-bottom: 20px; */
+        /* padding-top: 0px;  */
+	
+
+    }
+    #Muzyka
+    {
+        /* background: url(mozg.jpg); */
+        width: 44%;
+        height: 33vh;
+        min-width: 48vh;
+        background-color: brown;
+        text-align: center;
+        /* opacity: 0.1; */
+        color: white;
+        float: left;
+        margin: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px; 
+    }
+
+        
+    #Muzyka2
+    {
+        width: 100%;
+        height: 100%;
+        background: url(Muzyka.jpg);
+        background-position:center center;
+        /* text-align: center; */
+        background-repeat: no-repeat;
+    }
+    #pole7
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole7 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #Muzyka2:hover > #pole7,#pole7 p
+    {
+        display: block;
+    }
+    #labirynt
+    {
+        /* background: url(mozg.jpg); */
+        width: 44%;
+        height: 33vh;
+        min-width: 48vh;
+        background-color: pink;
+        text-align: center;
+        /* opacity: 0.1; */
+        color: white;
+        float: left;
+        margin: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px; 
+    }
+
+        
+    #labirynt2
+    {
+        width: 100%;
+        height: 100%;
+        background: url(labirynt.jpg);
+        background-position:center center;
+        /* text-align: center; */
+        background-repeat: no-repeat;
+    }
+    #pole8
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  display: none;
+    }
+    #pole8 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: black;
+    }
+    #labirynt2:hover > #pole8,#pole8 p
+    {
+        display: block;
+    }
+    #raz
+    {
+        /* background: url(mozg.jpg); */
+        width: 44%;
+        height: 33vh;
+        min-width: 48vh;
+        background-color: green;
+        /* line-height: 33vh; */
+        /* background-size:cover; */
+        /* background-repeat: no-repeat; */
+        /* background-position:center center; */
+        text-align: center;
+        /* opacity: 0.1; */
+        color: white;
+        float: left;
+        margin: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    
+    
+    
+    }
+    #razraz
+    {
+        width: 100%;
+        height: 100%;
+        background: url(mozg.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+        /* background-size:cover; */
+        /* padding-top: 10px; */
+        /* padding-bottom: 10px; */
+        
+
+    }
+    #pole1
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole1 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #razraz:hover > #pole1,#pole1 p
+    {
+        display: block;
+    }
+    #dwa
+    {
+        /* background: url(dragdrop.jpg); */
+        background-color: red;
+        width: 44%;
+        height: 33vh;
+        min-width: 48vh;
+     text-align: center;
+     float: left;
+     margin: 20px;
+       padding-bottom: 20px;
+        padding-top: 20px;
+    
+    }
+    #dwadwa
+    {
+        width: 100%;
+        height: 100%;
+        background: url(dragdrop.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+        /* background-size:cover; */
+
+    }
+    #pole2
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole2 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #dwadwa:hover > #pole2,#pole2 p
+    {
+        display: block;
+    }
+    #trzy
+    {
+        background-color: yellow;
+        width: 44%;
+        height: 33vh;
+        min-width: 48vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     
+        }
+    #trzytrzy{
+        width: 100%;
+        height: 100%;
+        background: url(wykres.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+    }
+    #pole3
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole3 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #trzytrzy:hover > #pole3,#pole3 p
+    {
+        display: block;
+    }
+    #cztery
+    {
+        background-color: blue;
+        width: 44%;
+        height: 33vh;
+        min-width: 48vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     
+        }
+    #czterycztery{
+        width: 100%;
+        height: 100%;
+        background: url(kalkulator.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+
+    }
+    #pole4
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole4 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #czterycztery:hover > #pole4,#pole4 p
+    {
+        display: block;
+    }
+    #piec
+    {
+        background-color: gold;
+        width: 44%;
+        height: 33vh;
+        min-width: 48vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     
+        }
+    #piecpiec{
+        width: 100%;
+        height: 100%;
+        background: url(haslo.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+
+    }
+    #pole5
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole5 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #piecpiec:hover > #pole5,#pole5 p
+    {
+        display: block;
+    }
+    #szesc
+    {
+        background-color: silver;
+        width: 44%;
+        height: 33vh;
+        min-width: 48vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     
+        }
+    #szescszesc{
+        width: 100%;
+        height: 100%;
+        background: url(rekordy.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+
+    }
+    #pole6
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole6 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #szescszesc:hover > #pole6,#pole6 p
+    {
+        display: block;
+    }
+
+    }
+    @media screen and (min-width: 589px) and (max-width: 780px){
+        #all
+    {
+        flex-basis: 15%;
+        flex-grow: 1;
+        height: 33.33vh;
+        text-align: center;
+        /* border: 4px solid #fff; */
+        /* background-color: #000; */
+            /* padding: 30px; */
+    }
+    #naglowek
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: teal;
+        width: 35%;
+        height: 80px;
+        margin: auto;
+    }
+    #footer
+    {
+         display: flex;
+        /* justify-content: center; */
+        text-align: left;
+        /* left: 0; */
+        background-color: orange;
+        width: 460px;
+        height: 100px;
+        margin: 20px;
+        /* padding-bottom: 20px; */
+        /* padding-top: 0px;  */
+	
+
+    }
+    #Muzyka
+    {
+        /* background: url(mozg.jpg); */
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+        background-color: brown;
+        text-align: center;
+        /* opacity: 0.1; */
+        color: white;
+        float: left;
+        margin: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 15%;
+    }
+
+        
+    #Muzyka2
+    {
+        width: 100%;
+        height: 100%;
+        background: url(Muzyka.jpg);
+        background-position:center center;
+        /* text-align: center; */
+        background-repeat: no-repeat;
+    }
+    #pole7
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole7 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #Muzyka2:hover > #pole7,#pole7 p
+    {
+        display: block;
+    }
+    #labirynt
+    {
+        /* background: url(mozg.jpg); */
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+        background-color: pink;
+        text-align: center;
+        /* opacity: 0.1; */
+        color: white;
+        float: left;
+        margin: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 15%;
+    }
+
+        
+    #labirynt2
+    {
+        width: 100%;
+        height: 100%;
+        background: url(labirynt.jpg);
+        background-position:center center;
+        /* text-align: center; */
+        background-repeat: no-repeat;
+    }
+    #pole8
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  display: none;
+    }
+    #pole8 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: black;
+    }
+    #labirynt2:hover > #pole8,#pole8 p
+    {
+        display: block;
+    }
+    #raz
+    {
+        /* background: url(mozg.jpg); */
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+        background-color: green;
+        /* line-height: 33vh; */
+        /* background-size:cover; */
+        /* background-repeat: no-repeat; */
+        /* background-position:center center; */
+        text-align: center;
+        /* opacity: 0.1; */
+        color: white;
+        float: left;
+        margin: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 15%;
+    
+    
+    
+    }
+    #razraz
+    {
+        width: 100%;
+        height: 100%;
+        background: url(mozg.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+        /* background-size:cover; */
+        /* padding-top: 10px; */
+        /* padding-bottom: 10px; */
+        
+
+    }
+    #pole1
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole1 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #razraz:hover > #pole1,#pole1 p
+    {
+        display: block;
+    }
+    #dwa
+    {
+        /* background: url(dragdrop.jpg); */
+        background-color: red;
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+     text-align: center;
+     float: left;
+     margin: 20px;
+       padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 15%;
+    
+    }
+    #dwadwa
+    {
+        width: 100%;
+        height: 100%;
+        background: url(dragdrop.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+        /* background-size:cover; */
+
+    }
+    #pole2
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole2 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #dwadwa:hover > #pole2,#pole2 p
+    {
+        display: block;
+    }
+    #trzy
+    {
+        background-color: yellow;
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     margin-left: 15%;
+     
+        }
+    #trzytrzy{
+        width: 100%;
+        height: 100%;
+        background: url(wykres.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+
+    }
+    #pole3
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole3 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #trzytrzy:hover > #pole3,#pole3 p
+    {
+        display: block;
+    }
+    #cztery
+    {
+        background-color: blue;
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     margin-left: 15%;
+     
+        }
+    #czterycztery{
+        width: 100%;
+        height: 100%;
+        background: url(kalkulator.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+
+    }
+    #pole4
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole4 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #czterycztery:hover > #pole4,#pole4 p
+    {
+        display: block;
+    }
+    #piec
+    {
+        background-color: gold;
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     margin-left: 15%;
+     
+        }
+    #piecpiec{
+        width: 100%;
+        height: 100%;
+        background: url(haslo.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+
+    }
+    #pole5
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole5 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #piecpiec:hover > #pole5,#pole5 p
+    {
+        display: block;
+    }
+    #szesc
+    {
+        background-color: silver;
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     margin-left: 15%;
+     
+        }
+    #szescszesc{
+        width: 100%;
+        height: 100%;
+        background: url(rekordy.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+
+    }
+    #pole6
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole6 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #szescszesc:hover > #pole6,#pole6 p
+    {
+        display: block;
+    }
+}
+@media screen and (max-width: 589px){
+        #all
+    {
+        flex-basis: 15%;
+        flex-grow: 1;
+        height: 33.33vh;
+        text-align: center;
+        /* border: 4px solid #fff; */
+        /* background-color: #000; */
+            /* padding: 30px; */
+    }
+    #naglowek
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: teal;
+        width: 35%;
+        height: 120px;
+        margin: auto;
+    }
+    #footer
+    {
+         display: flex;
+        /* justify-content: center; */
+        text-align: left;
+        /* left: 0; */
+        background-color: orange;
+        width: 460px;
+        height: 100px;
+        margin: 20px;
+        /* padding-bottom: 20px; */
+        /* padding-top: 0px;  */
+	
+
+    }
+    #Muzyka
+    {
+        /* background: url(mozg.jpg); */
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+        background-color: brown;
+        text-align: center;
+        /* opacity: 0.1; */
+        color: white;
+        float: left;
+        margin: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 15%;
+    }
+
+        
+    #Muzyka2
+    {
+        width: 100%;
+        height: 100%;
+        background: url(Muzyka.jpg);
+        background-position:center center;
+        /* text-align: center; */
+        background-repeat: no-repeat;
+    }
+    #pole7
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole7 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #Muzyka2:hover > #pole7,#pole7 p
+    {
+        display: block;
+    }
+    #labirynt
+    {
+        /* background: url(mozg.jpg); */
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+        background-color: pink;
+        text-align: center;
+        /* opacity: 0.1; */
+        color: white;
+        float: left;
+        margin: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 15%;
+    }
+
+        
+    #labirynt2
+    {
+        width: 100%;
+        height: 100%;
+        background: url(labirynt.jpg);
+        background-position:center center;
+        /* text-align: center; */
+        background-repeat: no-repeat;
+    }
+    #pole8
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  display: none;
+    }
+    #pole8 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: black;
+    }
+    #labirynt2:hover > #pole8,#pole8 p
+    {
+        display: block;
+    }
+    #raz
+    {
+        /* background: url(mozg.jpg); */
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+        background-color: green;
+        /* line-height: 33vh; */
+        /* background-size:cover; */
+        /* background-repeat: no-repeat; */
+        /* background-position:center center; */
+        text-align: center;
+        /* opacity: 0.1; */
+        color: white;
+        float: left;
+        margin: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 15%;
+    
+    
+    
+    }
+    #razraz
+    {
+        width: 100%;
+        height: 100%;
+        background: url(mozg.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+        /* background-size:cover; */
+        /* padding-top: 10px; */
+        /* padding-bottom: 10px; */
+        
+
+    }
+    #pole1
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole1 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #razraz:hover > #pole1,#pole1 p
+    {
+        display: block;
+    }
+    #dwa
+    {
+        /* background: url(dragdrop.jpg); */
+        background-color: red;
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+     text-align: center;
+     float: left;
+     margin: 20px;
+       padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 15%;
+    
+    }
+    #dwadwa
+    {
+        width: 100%;
+        height: 100%;
+        background: url(dragdrop.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+        /* background-size:cover; */
+
+    }
+    #pole2
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole2 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #dwadwa:hover > #pole2,#pole2 p
+    {
+        display: block;
+    }
+    #trzy
+    {
+        background-color: yellow;
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     margin-left: 15%;
+     
+        }
+    #trzytrzy{
+        width: 100%;
+        height: 100%;
+        background: url(wykres.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+
+    }
+    #pole3
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole3 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #trzytrzy:hover > #pole3,#pole3 p
+    {
+        display: block;
+    }
+    #cztery
+    {
+        background-color: blue;
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     margin-left: 15%;
+     
+        }
+    #czterycztery{
+        width: 100%;
+        height: 100%;
+        background: url(kalkulator.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+
+    }
+    #pole4
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole4 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #czterycztery:hover > #pole4,#pole4 p
+    {
+        display: block;
+    }
+    #piec
+    {
+        background-color: gold;
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     margin-left: 15%;
+     
+        }
+    #piecpiec{
+        width: 100%;
+        height: 100%;
+        background: url(haslo.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+
+    }
+    #pole5
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole5 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #piecpiec:hover > #pole5,#pole5 p
+    {
+        display: block;
+    }
+    #szesc
+    {
+        background-color: silver;
+        width: 70%;
+        height: 33vh;
+        min-width: 50vh;
+        color: black;
+     text-align: center;
+     float: left;
+     margin: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     margin-left: 15%;
+     
+        }
+    #szescszesc{
+        width: 100%;
+        height: 100%;
+        background: url(rekordy.jpg);
+        background-position:center center;
+        text-align: center;
+        background-repeat: no-repeat;
+
+    }
+    #pole6
+    {
+        /* margin: 30px; */
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=60);
+  display: none;
+    }
+    #pole6 p
+    {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+    #szescszesc:hover > #pole6,#pole6 p
+    {
+        display: block;
+    }
+}
+
+    .fa {
+        padding: 20px;
+        font-size: 50px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+    .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+    

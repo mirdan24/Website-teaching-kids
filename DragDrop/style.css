@@ -1,0 +1,73 @@
+#pole1 {
+  float: left;
+  width: 52px;
+  height: 75px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+  text-align: center;
+  font-size: 65px;
+  font-weight: bold;
+}
+#drag {
+  float: left;
+  width: 52px;
+  height: 75px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+#pole2 {
+  float: left;
+  width: 52px;
+  height: 75px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+  text-align: center;
+  font-size: 65px;
+  font-weight: bold;
+}
+#plus {
+  float: left;
+  width: 52px;
+  height: 75px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+#equal {
+  float: left;
+  width: 52px;
+  height: 75px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+#all
+{
+margin-left: 420px;
+margin-top: 300px;
+
+}
+#nr1 {
+  margin-top: 30px;
+  margin-left: 74px;
+  clear: both;
+  float: left;
+  width: 52px;
+  height: 75px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+#nr2 {
+  margin-top: 30px;
+  float: left;
+  width: 52px;
+  height: 75px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+#nr3 {
+  margin-top: 30px;
+  float: left;
+  width: 52px;
+  height: 75px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}

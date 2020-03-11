@@ -1,0 +1,16 @@
+svg .draw
+{
+    stroke: black;
+    stroke-width: 4px;
+    fill: transparent;
+    stroke-dasharray: 1600;
+    stroke-dashoffset: 1600;
+    animation: animate 10s linear infinite;
+
+}
+@keyframes animate
+{
+    to{
+        stroke-dashoffset: 0;
+    }
+}

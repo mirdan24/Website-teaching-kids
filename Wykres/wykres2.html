@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+.slidecontainer2 {
+  width: 100%;
+}
+
+.slider2 {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider2:hover {
+  opacity: 1;
+}
+
+.slider2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider2::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+</style>
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/88C2D286-88E7-C749-AB2C-F6B31B09D3AF/main.js" charset="UTF-8"></script><script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body bgcolor="yellow">
+
+  
+  <a href="../index.html"><font face="Arial"><h5>Powrot do strony glownej</h5></font></a>
+  <a href="wykres3.html"><font face="Arial"><h5>Funkcja kwadratowa</h5></font></a><center><font face="'Times New Roman'"><h2>Funkcja liniowa</h2></font></center>
+
+	$$y = a*x+b$$
+  <p>a: <span id="demo"></span></p>
+	<div class="slidecontainer">
+  <input type="range" min="-100" max="100" class="slider" id="myRange" oninput="">
+
+</div>
+<p>b: <span id="demo2"></span></p>
+	<div class="slidecontainer2">
+  <input type="range" min="-100" max="100" class="slider2" id="myRange2">
+
+</div>
+
+<canvas id="canvas_3" width="1511" height="611"></canvas>
+	<script type="text/javascript">
+		var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+ var slider2 = document.getElementById("myRange2");
+var output2 = document.getElementById("demo2");
+output2.innerHTML = slider2.value;
+
+ slider.oninput = function() {
+ 	  output.innerHTML = this.value/10;
+       		
+		const canvasElem = document.getElementById('canvas_3');
+		canvasElem.width=canvasElem.width;
+		const ctx = canvasElem.getContext('2d');
+		const e = 2.72;
+		const T = output2.innerHTML;
+        var k = output.innerHTML;
+		
+
+for(i=0;i<=30;i++){
+  ctx.lineWidth = 1/6;
+  ctx.beginPath();
+  ctx.moveTo(10+50*i,10);
+  ctx.lineTo(10+50*i,610);
+  ctx.closePath();
+  ctx.stroke();
+}
+for(i=0;i<=26;i++){
+  ctx.lineWidth = 1/6;
+  ctx.beginPath();
+  ctx.moveTo(10,10+50*i);
+  ctx.lineTo(1510,10+50*i);
+  ctx.closePath();
+  ctx.stroke();
+}
+ 
+//Układ wspolrzednych
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(10,310);
+  ctx.lineTo(1610,310);
+  ctx.closePath();
+  ctx.stroke();
+
+  
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(760,10);
+  ctx.lineTo(760,610);
+  ctx.closePath();
+  ctx.stroke();
+
+//Groty ukladu wspolrzednych X
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(1510,310);
+  ctx.lineTo(1480,290);
+  ctx.closePath();
+  ctx.stroke();
+
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(1510,310);
+  ctx.lineTo(1480,330);
+  ctx.closePath();
+  ctx.stroke();
+
+  //Grot ukladu wspolrzednych Y
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(760,10);
+  ctx.lineTo(740,40);
+  ctx.closePath();
+  ctx.stroke();
+
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(760,10);
+  ctx.lineTo(780,40);
+  ctx.closePath();
+  ctx.stroke();
+
+
+
+// ctx.fillText('k',5,10);
+// ctx.fillText('300',5,30);
+// ctx.fillText('200',5,130);
+// ctx.fillText('100',5,230);
+
+//oznaczenie na osi
+for(let i=0;i<=14;i++)
+{
+  ctx.fillText(i,750+50*i,320);
+  ctx.fillText((-1)*i,750+(-1)*50*i,320);
+}
+for(let i=0;i<=5;i++)
+{
+  ctx.fillText(i,750,320-50*i);
+  ctx.fillText((-1)*i,750,320+50*i);}
+
+   //nazwy osi
+   ctx.fillText("X",1500,290);
+  ctx.fillText("Y",780,20);
+// ctx.fillText('0',750,320);
+
+// ctx.fillText('100',100,330);
+// ctx.fillText('200',200,330);
+// ctx.fillText('300',300,330);
+// ctx.fillText('400',400,330);
+// ctx.fillText('500',500,330);
+// ctx.fillText('t(s)',600,330);
+
+ctx.strokeStyle = "black";
+ctx.moveTo(760,310-(T*100));
+let y = 0;
+let z = 0;
+for (let i = 1; i < 750; i++) {
+  ctx.lineWidth = 1;
+	y = 310-((k*i)+T*100);
+	ctx.lineTo(i+760,y);
+	z = i;
+}
+for (let i = 1; i < 750; i++) {
+  ctx.lineWidth = 1;
+	y = 310+((k*i)-T*100);
+	ctx.lineTo((-1)*i+760,y);
+	z = i;
+}
+
+ctx.stroke();
+
+}
+ 	  		
+ slider2.oninput = function() {
+  output2.innerHTML = this.value/10;
+
+ 		
+		const canvasElem = document.getElementById('canvas_3');
+		canvasElem.width=canvasElem.width;
+		const ctx = canvasElem.getContext('2d');
+		const e = 2.72;
+		const T = output2.innerHTML;
+        var k = output.innerHTML;
+		
+
+for(i=0;i<=30;i++){
+  ctx.lineWidth = 1/6;
+  ctx.beginPath();
+  ctx.moveTo(10+50*i,10);
+  ctx.lineTo(10+50*i,610);
+  ctx.closePath();
+  ctx.stroke();
+}
+for(i=0;i<=26;i++){
+  ctx.lineWidth = 1/6;
+  ctx.beginPath();
+  ctx.moveTo(10,10+50*i);
+  ctx.lineTo(1510,10+50*i);
+  ctx.closePath();
+  ctx.stroke();
+}
+
+ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(10,310);
+  ctx.lineTo(1610,310);
+  ctx.closePath();
+  ctx.stroke();
+
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(760,10);
+  ctx.lineTo(760,610);
+  ctx.closePath();
+  ctx.stroke();
+
+  //Groty ukladu wspolrzednych X
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(1510,310);
+  ctx.lineTo(1480,290);
+  ctx.closePath();
+  ctx.stroke();
+
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(1510,310);
+  ctx.lineTo(1480,330);
+  ctx.closePath();
+  ctx.stroke();
+
+  //Grot ukladu wspolrzednych Y
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(760,10);
+  ctx.lineTo(740,40);
+  ctx.closePath();
+  ctx.stroke();
+
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(760,10);
+  ctx.lineTo(780,40);
+  ctx.closePath();
+  ctx.stroke();
+
+  //oznaczenie na osi
+for(let i=0;i<=14;i++)
+{
+  ctx.fillText(i,750+50*i,320);
+  ctx.fillText((-1)*i,750+(-1)*50*i,320);}
+
+  for(let i=0;i<=5;i++)
+{
+  ctx.fillText(i,750,320-50*i);
+  ctx.fillText((-1)*i,750,320+50*i);}
+
+   //nazwy osi
+   ctx.fillText("X",1500,290);
+  ctx.fillText("Y",780,20);
+// ctx.fillText('k',5,10);
+// ctx.fillText('300',5,30);
+// ctx.fillTex('200',5,130);
+// ctx.fillText('100',5,230);
+// ctx.fillText('0',0,330);
+// ctx.fillText('100',100,330);
+// ctx.fillText('200',200,330);
+// ctx.fillText('300',300,330);
+// ctx.fillText('400',400,330);
+// ctx.fillText('500',500,330);
+// ctx.fillText('t(s)',600,330);
+
+ctx.strokeStyle = "black";
+ctx.moveTo(760,310-(T*100));
+let y = 0;
+let z = 0;
+for (let i = 1; i < 750; i++) {
+  ctx.lineWidth = 1;
+	y = 310-((k*i)+T*100);
+	ctx.lineTo(i+760,y);
+	z = i;
+}
+for (let i = 1; i < 750; i++) {
+  ctx.lineWidth = 1;
+	y = 310+((k*i)-T*100);
+	ctx.lineTo((-1)*i+760,y);
+	z = i;
+}
+ctx.stroke();
+}
+
+//  ctx.stroke();
+
+
+
+
+
+
+
+	</script>
+
+
+
+</body>
+</html>
